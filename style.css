@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+.hero {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-text {
+    margin-top: 20px;
+}
+
+.menu {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ... (rest of your CSS code) ... */
+
+/* Image Styling */
+img {
+    max-width: 100%; /* Ensures images don't exceed their container width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Specific Image Container (for example, within a menu item) */
+.menu-item img {
+    width: 200px; /* Adjust width as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Hero Image (adjust as needed) */
+.hero img {
+    width: 80%;
+    height: auto;
+}
+
+/* Responsive Image Handling (for different screen sizes) */
+@media (max-width: 768px) {
+    /* Adjust image sizes for smaller screens */
+    .menu-item img {
+        width: 150px;
+    }
+    .hero img {
+        width: 100%;
+    }
+}
