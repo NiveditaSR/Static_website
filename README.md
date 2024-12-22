@@ -15,13 +15,9 @@ Here is how I configured the settings,
 
 4) There are two hosting types,
 
-     a) Host a static website, serving the static content directly from the S3   
+     a) Host a static website, serving the static content directly from the S3 bucket.
 
-         bucket.
-
-     b) Redirect requests for an object, an option to redirect requests 
-
-         from one domain (or bucket) to another.  
+     b) Redirect requests for an object, an option to redirect requests from one domain (or bucket) to another.  
 
 Choose the hosting type (a) for now. And mention the default page and an error page.
 
